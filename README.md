@@ -19,8 +19,9 @@ instruction d'installation sur : https://gradle.org/install/
 Toutes les sources nécessaires sont déja présentes sur ce repos. Il suffit donc de "build & run" via gradle
 
 ```
-gradle build
+gradle run -PappArgs={ID},{KEY}
 ```
+*pour les tests, on propose 1 pour {ID} et {test.me}*
 
 ## Utilisation
 
