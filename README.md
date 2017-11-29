@@ -40,10 +40,6 @@ Ici il sera question d'échanger des informations entre deux ou plusieurs utilis
 
 Ce projet existe dans le seul but de tester les fonctionnalités de TomP2P avant de l'intégrer au Projet TomSXP. Il est donc conseillé de le modifier pour tester les fonctionnalités de la DHT de TomP2P.
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## Versioning
 
 Ce projet a été déplacé ainsi il s'agit de la première version présente.
