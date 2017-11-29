@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="netty-buffer-4.0.25.Final" level="project" />
+    <orderEntry type="library" name="netty-common-4.0.25.Final" level="project" />
+    <orderEntry type="library" name="netty-transport-4.0.25.Final" level="project" />
+    <orderEntry type="library" name="slf4j-api-1.7.6" level="project" />
+    <orderEntry type="library" name="slf4j-nop-1.7.6" level="project" />
+    <orderEntry type="library" name="tomp2p-android-5.0-Beta5" level="project" />
+    <orderEntry type="library" name="tomp2p-core-5.0-Beta5" level="project" />
+    <orderEntry type="library" name="tomp2p-dht-5.0-Beta5" level="project" />
+    <orderEntry type="library" name="tomp2p-nat-5.0-Beta5" level="project" />
+    <orderEntry type="library" name="tomp2p-replication-5.0-Beta5" level="project" />
+  </component>
+</module>

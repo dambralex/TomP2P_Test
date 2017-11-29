@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="tomp2p-core-5.0-Beta5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/tomp2p-core-5.0-Beta5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/tomp2p-dht-5.0-Beta5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/tomp2p-nat-5.0-Beta5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/tomp2p-replication-5.0-Beta5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
