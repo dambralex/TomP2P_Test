@@ -34,11 +34,12 @@ Une fois qu'un peer est connecté à un réseau, il devient composant de la DHT 
 Il est alors possible possible à l'utilisateur de rajouter des informations dans la DHT, et ainsi les partager avec d'autres utilisateurs.
 TomP2P_Test est ici utilisé pour permettre à plusieurs developpeurs de tester les fonctionnalités de TomP2P.
 
-### le Projet SXP ###
-Ce projet existe dans le seul but de tester les fonctionnalités de TomP2P avant de l'intégrer au Projet TomSXP.
+### Le Projet SXP ###
+Ce projet existe dans le seul but de tester les fonctionnalités de TomP2P avant de l'intégrer au [Projet SXP](https://github.com/pja35/SXP)
 
-Les mécanismes utilisés dans ce programme (put get, routage...), bien que traitant actuellement des données simples (chaînes de caractères), sont les mêmes mécanismes pouvant être utilisés dans SXP mais cette fois ci pour gérer des services. Bien entendu, SXP possède des fonctionnalités comme *l'advertisement* qui est un type de message envoyé lorsqu'un nouveau service est disponible pour en avertir les autres utilisateurs.
+Les mécanismes utilisés dans TomP2P_Test (put get, routage...), bien que traitant actuellement des données simples (chaînes de caractères), sont les mêmes mécanismes pouvant être utilisés dans SXP mais cette fois ci pour gérer des services. Bien entendu, SXP possède des fonctionnalités comme *l'advertisement* qui est un type de message envoyé lorsqu'un nouveau service est disponible pour en avertir les autres utilisateurs.
 
+Des premiers essais ont été réalisés et sont accessible dans le dossier le dossier [TomSXP](https://)
 
 ## Versioning
 
