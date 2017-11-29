@@ -22,17 +22,16 @@ public class Application{
 
     public Application(int peerId) throws Exception {
 
-        Peer peer = new PeerBuilder(new Number160(new Random())).ports(4001).start();
+        Peer peer = new PeerBuilder(new Number160(new Random())).ports(4000).start();
 
-        InetAddress address = Inet4Address.getByName("139.124.211.106");
-        FutureDiscover futureDiscover = peer.discover().inetAddress( address ).ports( 4000 ).start();
+        InetAddress address = Inet4Address.getByName("192.168.43.79 ");
+        FutureDiscover futureDiscover = peer.discover().inetAddress( address ).ports( 4001 ).start();
         futureDiscover.awaitUninterruptibly();
-        FutureBootstrap futureBootstrap = peer.bootstrap().inetAddress( address ).ports( 4000 ).start();
+        FutureBootstrap futureBootstrap = peer.bootstrap().inetAddress( address ).ports( 4001 ).start();
         futureBootstrap.awaitUninterruptibly();
 
 
-
-//        peerDHT = new PeerBuilderDHT(peer).start();
+        peerDHT = new PeerBuilderDHT(peer).start();
 
 //        FutureBootstrap fb = this.peerDHT.peer().bootstrap().inetAddress(InetAddress.getByName("127.0.0.1")).ports(4001).start();
 //        fb.awaitUninterruptibly();
@@ -44,7 +43,7 @@ public class Application{
     public static void main(String[] args) throws NumberFormatException, Exception {
         Application dns = new Application(Integer.parseInt(args[0]));
         if (args.length == 3) {
-            dns.store(args[1], "Salut Alex");
+            dns.store(args[1], "Salut Walid");
         }
         if (args.length == 2) {
             System.out.println("Name:" + args[1] + " IP:" + dns.get(args[1]));
