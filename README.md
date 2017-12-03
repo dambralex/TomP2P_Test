@@ -25,22 +25,22 @@ gradle run -PappArgs={ID},{KEY}
 
 ## Utilisation
 
-Ce programme a pour but principal de tester concrètement la Librairie TomP2P.
-Ici il sera question d'échanger seulement des informations (get et put) entre deux ou plusieurs utilisateurs(peers) au sein d'un réseau local.
+Ce programme a pour but principal de tester concrètement la Librairie TomP2P, afin d'en comprendre les mécanismes, en vue d'une future implémentation de l'API *Network* de SXP.
+Ici il sera question d'échanger des informations en écrivant ou en lisant dans la DHT (via *get* et *put*), entre deux ou plusieurs utilisateurs (*peers*) au sein d'un réseau local.
 
 ## Détails
 
-Pour entrer dans un réseau P2P, un noeud a besoin d'un autre noeud déja dans le réseau (Phase de "bootstrap"). S'il n'existe pas de tels noeuds, alors il s'agit d'un noeud racine qui servira pour les futurs arrivants.
+Pour entrer dans un réseau P2P, un noeud a besoin d'un autre noeud déja dans le réseau (Phase de "bootstrap"). S'il n'existe pas un tel noeud, alors il s'agit du noeud racine, autour duquel le réseau sera construit, car il servira de noeud de rendez vous pour les futurs arrivants.
 Une fois qu'un peer est connecté à un réseau, il devient composant de la DHT comme les autres peers.
-Il est alors possible possible à l'utilisateur de rajouter des informations dans la DHT, et ainsi les partager avec d'autres utilisateurs.
-TomP2P_Test est ici utilisé pour permettre à plusieurs developpeurs de tester les fonctionnalités de TomP2P.
+Il a alors la capacité d'intéragir avec la DHT. Il peut aussi servir de noeud de bootstrap.
+TomP2P_Test est ici utilisé pour permettre à plusieurs développeurs de tester les fonctionnalités de TomP2P.
 
 ### Le Projet SXP
-Ce projet existe dans le seul but de tester les fonctionnalités de TomP2P avant de l'intégrer au [Projet SXP](https://github.com/pja35/SXP)
+Le programme TomP2P_Test existe dans le seul but de tester les fonctionnalités de TomP2P avant de l'intégrer au [Projet SXP](https://github.com/pja35/SXP)
 
-Les mécanismes utilisés dans TomP2P_Test (put get, routage...), bien que traitant actuellement des données simples (chaînes de caractères), sont les mêmes mécanismes pouvant être utilisés dans SXP mais cette fois ci pour gérer des services. Bien entendu, SXP possède des fonctionnalités comme *l'advertisement* qui est un type de message envoyé lorsqu'un nouveau service est disponible pour en avertir les autres utilisateurs.
+Les mécanismes utilisés dans TomP2P_Test (put, get, routage...), bien que traitant actuellement des données simples (chaînes de caractères), sont les mêmes que ceux pouvant être utilisés dans SXP pour des données plus complexes, comme des services ou des items. Bien entendu, SXP possède des fonctionnalités supplémentaires comme *l'advertisement* qui est un type de message particulier, envoyé lorsqu'un nouveau service est disponible pour en avertir de sa présence les autres utilisateurs. Ainsi, les peers connectés au réseau savent à tout moment quel est le contenu de la DHT. Ceci n'est pas géré nativement par TomP2P.
 
-Des essais d'implémentation de l'interface du module Network SXP ont été réalisés, et sont accessibles dans le dossier [TomSXP](https://github.com/dambralex/TomP2P_Test/tree/master/TomSXP)
+Des essais infructueux d'implémentation de l'interface du module Network de SXP ont été réalisés, et sont accessibles dans le dossier [TomSXP](https://github.com/dambralex/TomP2P_Test/tree/master/TomSXP)
 
 ## TO DO  
 
