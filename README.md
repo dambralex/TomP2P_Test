@@ -11,12 +11,12 @@ Ces instructions vont vous permettre d'avoir une version fonctionnelle du logici
 Soyez surs d'avoir Gradle d'installé
 
 ```
-instruction d'installation sur : https://gradle.org/install/
+instructions d'installation sur : https://gradle.org/install/
 ```
 
 ### Installation
 
-Toutes les sources nécessaires sont déja présentes sur ce repos. Il suffit donc de "build & run" via gradle
+Toutes les sources nécessaires sont déja présentes sur ce dépôt. Il suffit donc de "build & run" via gradle
 
 ```
 gradle run -PappArgs={ID},{KEY}
@@ -40,7 +40,7 @@ Ce projet existe dans le seul but de tester les fonctionnalités de TomP2P avant
 
 Les mécanismes utilisés dans TomP2P_Test (put get, routage...), bien que traitant actuellement des données simples (chaînes de caractères), sont les mêmes mécanismes pouvant être utilisés dans SXP mais cette fois ci pour gérer des services. Bien entendu, SXP possède des fonctionnalités comme *l'advertisement* qui est un type de message envoyé lorsqu'un nouveau service est disponible pour en avertir les autres utilisateurs.
 
-Des premiers essais ont été réalisés et sont accessibles dans le dossier [TomSXP](https://github.com/dambralex/TomP2P_Test/tree/master/TomSXP)
+Des premiers essais d'inmplémentation de l'interface du module Network SXP ont été réalisés, et sont accessibles dans le dossier [TomSXP](https://github.com/dambralex/TomP2P_Test/tree/master/TomSXP)
 
 ## TO DO  
 
