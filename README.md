@@ -52,9 +52,9 @@ Ce projet a été déplacé ainsi il s'agit de la première version présente(in
 
 ## Authors
 
-* **Pierre TINLAND** - *developpeur / Chef de Projet* - [peadarDumnonii](https://github.com/peadarDumnonii)
-* **Walid BIRJAM** - *developpeur / Testeur* - [DoubleVVdouze](https://github.com/DoubleVVdouze)
-* **Alexandre D'AMBRA** - *developpeur / Rédacteur* - [Dambralex](https://github.com/Dambralex)
+* **Pierre TINLAND** - *développeur / Chef de Projet* - [peadarDumnonii](https://github.com/peadarDumnonii)
+* **Walid BIRJAM** - *développeur / Testeur* - [DoubleVVdouze](https://github.com/DoubleVVdouze)
+* **Alexandre D'AMBRA** - *développeur / Rédacteur* - [Dambralex](https://github.com/Dambralex)
 
 Liste des [contributors](https://github.com/your/project/contributors)
 
